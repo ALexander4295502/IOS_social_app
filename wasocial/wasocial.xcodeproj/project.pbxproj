@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F3890011EA2BCAE00A22D00 /* SelectCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3890001EA2BCAE00A22D00 /* SelectCourseViewController.swift */; };
+		0F8EC85F1EAACD0500D38BD4 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EC85E1EAACD0500D38BD4 /* UserListViewController.swift */; };
+		0F8EC8621EAB024700D38BD4 /* CourseCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8EC8601EAB024700D38BD4 /* CourseCommentViewController.swift */; };
+		0F8EC8631EAB024700D38BD4 /* CourseCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8EC8611EAB024700D38BD4 /* CourseCommentViewController.xib */; };
+		0F950EBF1EA8058300B79B3F /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F950EBE1EA8058300B79B3F /* Diary.swift */; };
+		0F950EC31EA8059600B79B3F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F950EC21EA8059600B79B3F /* User.swift */; };
+		0FD30DF71EA9DED5005501CC /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD30DF51EA9DED5005501CC /* FriendViewController.swift */; };
+		0FD30DF81EA9DED5005501CC /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD30DF61EA9DED5005501CC /* FriendViewController.xib */; };
+		0FEBC8101EAD37510017CC56 /* BackUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEBC80F1EAD37510017CC56 /* BackUpViewController.swift */; };
+		371BA6671E9AC2B4003E1C8F /* AddDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371BA6661E9AC2B4003E1C8F /* AddDiaryViewController.swift */; };
+		379E73051EAB079600DC69A5 /* CourseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E73041EAB079600DC69A5 /* CourseInfo.swift */; };
+		37DCBD321E9A9CFF00E1731F /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCBD311E9A9CFF00E1731F /* RegisterPageViewController.swift */; };
+		37DCBD341E9AA39300E1731F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DCBD331E9AA39300E1731F /* LoginViewController.swift */; };
+		37EE31E41EA3224F00F7CC33 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EE31E31EA3224F00F7CC33 /* Alamofire.framework */; };
+		37EE31E61EA3338300F7CC33 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EE31E51EA3338300F7CC33 /* DisplayView.swift */; };
+		37F8A27F1EAAF01500197208 /* courseRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8A27E1EAAF01500197208 /* courseRate.swift */; };
+		37F8A2821EAB063100197208 /* DiaryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F8A2801EAB063100197208 /* DiaryDetailViewController.swift */; };
+		37F8A2831EAB063100197208 /* DiaryDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F8A2811EAB063100197208 /* DiaryDetailViewController.xib */; };
+		73FBA03A81325249E5FA77B0 /* Pods_wasocialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECCD3632DEBD979A01AF7AB /* Pods_wasocialUITests.framework */; };
+		909554823DAC99EFD9D3DBB8 /* Pods_wasocialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22990B129A9BDAC0A3A3CD64 /* Pods_wasocialTests.framework */; };
+		F0A6512E773DC098CC8D1EE6 /* Pods_wasocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1278656FDFE6D72908EBA2BE /* Pods_wasocial.framework */; };
+		F8155E341EAD073600DC8A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8155E331EAD073600DC8A58 /* Assets.xcassets */; };
+		F841FD0C1E9A824E00247013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841FD0B1E9A824E00247013 /* AppDelegate.swift */; };
+		F841FD0E1E9A824E00247013 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841FD0D1E9A824E00247013 /* ViewController.swift */; };
+		F841FD111E9A824E00247013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F841FD0F1E9A824E00247013 /* Main.storyboard */; };
+		F841FD161E9A824E00247013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F841FD141E9A824E00247013 /* LaunchScreen.storyboard */; };
+		F841FD211E9A824E00247013 /* wasocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841FD201E9A824E00247013 /* wasocialTests.swift */; };
+		F841FD2C1E9A824E00247013 /* wasocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F841FD2B1E9A824E00247013 /* wasocialUITests.swift */; };
+		F841FD3C1E9A85DF00247013 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F841FD3B1E9A85DF00247013 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F841FD1D1E9A824E00247013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F841FD001E9A824E00247013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F841FD071E9A824E00247013;
+			remoteInfo = wasocial;
+		};
+		F841FD281E9A824E00247013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F841FD001E9A824E00247013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F841FD071E9A824E00247013;
+			remoteInfo = wasocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECC87B81D448C0249AFD60E /* Pods-wasocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wasocialUITests/Pods-wasocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F3890001EA2BCAE00A22D00 /* SelectCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCourseViewController.swift; sourceTree = "<group>"; };
+		0F8EC85E1EAACD0500D38BD4 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		0F8EC8601EAB024700D38BD4 /* CourseCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCommentViewController.swift; sourceTree = "<group>"; };
+		0F8EC8611EAB024700D38BD4 /* CourseCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseCommentViewController.xib; sourceTree = "<group>"; };
+		0F950EBE1EA8058300B79B3F /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		0F950EC21EA8059600B79B3F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0FD30DF51EA9DED5005501CC /* FriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		0FD30DF61EA9DED5005501CC /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		0FEBC80F1EAD37510017CC56 /* BackUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackUpViewController.swift; sourceTree = "<group>"; };
+		1278656FDFE6D72908EBA2BE /* Pods_wasocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wasocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22990B129A9BDAC0A3A3CD64 /* Pods_wasocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wasocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371BA6661E9AC2B4003E1C8F /* AddDiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiaryViewController.swift; sourceTree = "<group>"; };
+		379E73041EAB079600DC69A5 /* CourseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseInfo.swift; sourceTree = "<group>"; };
+		37DCBD311E9A9CFF00E1731F /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		37DCBD331E9AA39300E1731F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		37EE31E31EA3224F00F7CC33 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/wasocial-ewrjvcgprahsrngxrneleefonqfr/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		37EE31E51EA3338300F7CC33 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		37F8A27E1EAAF01500197208 /* courseRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseRate.swift; sourceTree = "<group>"; };
+		37F8A2801EAB063100197208 /* DiaryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryDetailViewController.swift; sourceTree = "<group>"; };
+		37F8A2811EAB063100197208 /* DiaryDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiaryDetailViewController.xib; sourceTree = "<group>"; };
+		8ECCD3632DEBD979A01AF7AB /* Pods_wasocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wasocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920C71164B4B6DF420FA07D6 /* Pods-wasocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wasocialTests/Pods-wasocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD1A689AAB4AA94EEE37636E /* Pods-wasocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wasocialTests/Pods-wasocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD7ECD7EE52F4575876BACCC /* Pods-wasocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-wasocial/Pods-wasocial.release.xcconfig"; sourceTree = "<group>"; };
+		DF0EF0D57F4C49672326A645 /* Pods-wasocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wasocial/Pods-wasocial.debug.xcconfig"; sourceTree = "<group>"; };
+		E2339127EE164F154655A9F1 /* Pods-wasocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wasocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wasocialUITests/Pods-wasocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8155E331EAD073600DC8A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F841FD081E9A824E00247013 /* wasocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wasocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F841FD0B1E9A824E00247013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F841FD0D1E9A824E00247013 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F841FD101E9A824E00247013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F841FD151E9A824E00247013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F841FD171E9A824E00247013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F841FD1C1E9A824E00247013 /* wasocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F841FD201E9A824E00247013 /* wasocialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasocialTests.swift; sourceTree = "<group>"; };
+		F841FD221E9A824E00247013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F841FD271E9A824E00247013 /* wasocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wasocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F841FD2B1E9A824E00247013 /* wasocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wasocialUITests.swift; sourceTree = "<group>"; };
+		F841FD2D1E9A824E00247013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F841FD3B1E9A85DF00247013 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F841FD051E9A824E00247013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EE31E41EA3224F00F7CC33 /* Alamofire.framework in Frameworks */,
+				F0A6512E773DC098CC8D1EE6 /* Pods_wasocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD191E9A824E00247013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909554823DAC99EFD9D3DBB8 /* Pods_wasocialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD241E9A824E00247013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FBA03A81325249E5FA77B0 /* Pods_wasocialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F950EBD1EA8056900B79B3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F950EBE1EA8058300B79B3F /* Diary.swift */,
+				0F950EC21EA8059600B79B3F /* User.swift */,
+				37F8A27E1EAAF01500197208 /* courseRate.swift */,
+				379E73041EAB079600DC69A5 /* CourseInfo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		98C4EEC166EAD0071C4490FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37EE31E31EA3224F00F7CC33 /* Alamofire.framework */,
+				1278656FDFE6D72908EBA2BE /* Pods_wasocial.framework */,
+				22990B129A9BDAC0A3A3CD64 /* Pods_wasocialTests.framework */,
+				8ECCD3632DEBD979A01AF7AB /* Pods_wasocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FEF1752144C911FC492D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0EF0D57F4C49672326A645 /* Pods-wasocial.debug.xcconfig */,
+				AD7ECD7EE52F4575876BACCC /* Pods-wasocial.release.xcconfig */,
+				920C71164B4B6DF420FA07D6 /* Pods-wasocialTests.debug.xcconfig */,
+				AD1A689AAB4AA94EEE37636E /* Pods-wasocialTests.release.xcconfig */,
+				E2339127EE164F154655A9F1 /* Pods-wasocialUITests.debug.xcconfig */,
+				0ECC87B81D448C0249AFD60E /* Pods-wasocialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F841FCFF1E9A824E00247013 = {
+			isa = PBXGroup;
+			children = (
+				F841FD0A1E9A824E00247013 /* wasocial */,
+				F841FD1F1E9A824E00247013 /* wasocialTests */,
+				F841FD2A1E9A824E00247013 /* wasocialUITests */,
+				F841FD091E9A824E00247013 /* Products */,
+				E2FEF1752144C911FC492D30 /* Pods */,
+				98C4EEC166EAD0071C4490FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F841FD091E9A824E00247013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F841FD081E9A824E00247013 /* wasocial.app */,
+				F841FD1C1E9A824E00247013 /* wasocialTests.xctest */,
+				F841FD271E9A824E00247013 /* wasocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F841FD0A1E9A824E00247013 /* wasocial */ = {
+			isa = PBXGroup;
+			children = (
+				0F950EBD1EA8056900B79B3F /* Models */,
+				F841FD0B1E9A824E00247013 /* AppDelegate.swift */,
+				F841FD0D1E9A824E00247013 /* ViewController.swift */,
+				F841FD3B1E9A85DF00247013 /* GoogleService-Info.plist */,
+				F841FD0F1E9A824E00247013 /* Main.storyboard */,
+				F8155E331EAD073600DC8A58 /* Assets.xcassets */,
+				F841FD141E9A824E00247013 /* LaunchScreen.storyboard */,
+				F841FD171E9A824E00247013 /* Info.plist */,
+				37EE31E51EA3338300F7CC33 /* DisplayView.swift */,
+				37DCBD311E9A9CFF00E1731F /* RegisterPageViewController.swift */,
+				37DCBD331E9AA39300E1731F /* LoginViewController.swift */,
+				371BA6661E9AC2B4003E1C8F /* AddDiaryViewController.swift */,
+				0F3890001EA2BCAE00A22D00 /* SelectCourseViewController.swift */,
+				0FD30DF51EA9DED5005501CC /* FriendViewController.swift */,
+				0FD30DF61EA9DED5005501CC /* FriendViewController.xib */,
+				0F8EC85E1EAACD0500D38BD4 /* UserListViewController.swift */,
+				37F8A2801EAB063100197208 /* DiaryDetailViewController.swift */,
+				37F8A2811EAB063100197208 /* DiaryDetailViewController.xib */,
+				0F8EC8601EAB024700D38BD4 /* CourseCommentViewController.swift */,
+				0F8EC8611EAB024700D38BD4 /* CourseCommentViewController.xib */,
+				0FEBC80F1EAD37510017CC56 /* BackUpViewController.swift */,
+			);
+			path = wasocial;
+			sourceTree = "<group>";
+		};
+		F841FD1F1E9A824E00247013 /* wasocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				F841FD201E9A824E00247013 /* wasocialTests.swift */,
+				F841FD221E9A824E00247013 /* Info.plist */,
+			);
+			path = wasocialTests;
+			sourceTree = "<group>";
+		};
+		F841FD2A1E9A824E00247013 /* wasocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F841FD2B1E9A824E00247013 /* wasocialUITests.swift */,
+				F841FD2D1E9A824E00247013 /* Info.plist */,
+			);
+			path = wasocialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F841FD071E9A824E00247013 /* wasocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F841FD301E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocial" */;
+			buildPhases = (
+				210CDC53C363FF231CCBF5FD /* [CP] Check Pods Manifest.lock */,
+				F841FD041E9A824E00247013 /* Sources */,
+				F841FD051E9A824E00247013 /* Frameworks */,
+				F841FD061E9A824E00247013 /* Resources */,
+				C673C98C90B45ACA2EB258C1 /* [CP] Embed Pods Frameworks */,
+				57C81CEEB27406713A8DA251 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wasocial;
+			productName = wasocial;
+			productReference = F841FD081E9A824E00247013 /* wasocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F841FD1B1E9A824E00247013 /* wasocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F841FD331E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocialTests" */;
+			buildPhases = (
+				E44A7498265C75A5475B7F73 /* [CP] Check Pods Manifest.lock */,
+				F841FD181E9A824E00247013 /* Sources */,
+				F841FD191E9A824E00247013 /* Frameworks */,
+				F841FD1A1E9A824E00247013 /* Resources */,
+				2E455823A06FF6B624CDBC1C /* [CP] Embed Pods Frameworks */,
+				E701D53B4DA3D9F05F821510 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F841FD1E1E9A824E00247013 /* PBXTargetDependency */,
+			);
+			name = wasocialTests;
+			productName = wasocialTests;
+			productReference = F841FD1C1E9A824E00247013 /* wasocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F841FD261E9A824E00247013 /* wasocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F841FD361E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocialUITests" */;
+			buildPhases = (
+				9E29C4009D250E51B9D2531A /* [CP] Check Pods Manifest.lock */,
+				F841FD231E9A824E00247013 /* Sources */,
+				F841FD241E9A824E00247013 /* Frameworks */,
+				F841FD251E9A824E00247013 /* Resources */,
+				2AAA3460C8EF05E8F1458428 /* [CP] Embed Pods Frameworks */,
+				DE2AC4C5BB2D640B149AF686 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F841FD291E9A824E00247013 /* PBXTargetDependency */,
+			);
+			name = wasocialUITests;
+			productName = wasocialUITests;
+			productReference = F841FD271E9A824E00247013 /* wasocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F841FD001E9A824E00247013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈逸山";
+				TargetAttributes = {
+					F841FD071E9A824E00247013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6EZYSZAWM;
+						ProvisioningStyle = Automatic;
+					};
+					F841FD1B1E9A824E00247013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6EZYSZAWM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F841FD071E9A824E00247013;
+					};
+					F841FD261E9A824E00247013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V6EZYSZAWM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F841FD071E9A824E00247013;
+					};
+				};
+			};
+			buildConfigurationList = F841FD031E9A824E00247013 /* Build configuration list for PBXProject "wasocial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F841FCFF1E9A824E00247013;
+			productRefGroup = F841FD091E9A824E00247013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F841FD071E9A824E00247013 /* wasocial */,
+				F841FD1B1E9A824E00247013 /* wasocialTests */,
+				F841FD261E9A824E00247013 /* wasocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F841FD061E9A824E00247013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F841FD161E9A824E00247013 /* LaunchScreen.storyboard in Resources */,
+				37F8A2831EAB063100197208 /* DiaryDetailViewController.xib in Resources */,
+				0F8EC8631EAB024700D38BD4 /* CourseCommentViewController.xib in Resources */,
+				0FD30DF81EA9DED5005501CC /* FriendViewController.xib in Resources */,
+				F841FD111E9A824E00247013 /* Main.storyboard in Resources */,
+				F8155E341EAD073600DC8A58 /* Assets.xcassets in Resources */,
+				F841FD3C1E9A85DF00247013 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD1A1E9A824E00247013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD251E9A824E00247013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		210CDC53C363FF231CCBF5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AAA3460C8EF05E8F1458428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocialUITests/Pods-wasocialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E455823A06FF6B624CDBC1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocialTests/Pods-wasocialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57C81CEEB27406713A8DA251 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocial/Pods-wasocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E29C4009D250E51B9D2531A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C673C98C90B45ACA2EB258C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocial/Pods-wasocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2AC4C5BB2D640B149AF686 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocialUITests/Pods-wasocialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44A7498265C75A5475B7F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E701D53B4DA3D9F05F821510 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wasocialTests/Pods-wasocialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F841FD041E9A824E00247013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3890011EA2BCAE00A22D00 /* SelectCourseViewController.swift in Sources */,
+				0F8EC85F1EAACD0500D38BD4 /* UserListViewController.swift in Sources */,
+				37EE31E61EA3338300F7CC33 /* DisplayView.swift in Sources */,
+				37DCBD341E9AA39300E1731F /* LoginViewController.swift in Sources */,
+				379E73051EAB079600DC69A5 /* CourseInfo.swift in Sources */,
+				37F8A27F1EAAF01500197208 /* courseRate.swift in Sources */,
+				0F8EC8621EAB024700D38BD4 /* CourseCommentViewController.swift in Sources */,
+				F841FD0E1E9A824E00247013 /* ViewController.swift in Sources */,
+				0FD30DF71EA9DED5005501CC /* FriendViewController.swift in Sources */,
+				0F950EBF1EA8058300B79B3F /* Diary.swift in Sources */,
+				0FEBC8101EAD37510017CC56 /* BackUpViewController.swift in Sources */,
+				F841FD0C1E9A824E00247013 /* AppDelegate.swift in Sources */,
+				371BA6671E9AC2B4003E1C8F /* AddDiaryViewController.swift in Sources */,
+				37F8A2821EAB063100197208 /* DiaryDetailViewController.swift in Sources */,
+				37DCBD321E9A9CFF00E1731F /* RegisterPageViewController.swift in Sources */,
+				0F950EC31EA8059600B79B3F /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD181E9A824E00247013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F841FD211E9A824E00247013 /* wasocialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F841FD231E9A824E00247013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F841FD2C1E9A824E00247013 /* wasocialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F841FD1E1E9A824E00247013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F841FD071E9A824E00247013 /* wasocial */;
+			targetProxy = F841FD1D1E9A824E00247013 /* PBXContainerItemProxy */;
+		};
+		F841FD291E9A824E00247013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F841FD071E9A824E00247013 /* wasocial */;
+			targetProxy = F841FD281E9A824E00247013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F841FD0F1E9A824E00247013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F841FD101E9A824E00247013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F841FD141E9A824E00247013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F841FD151E9A824E00247013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F841FD2E1E9A824E00247013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F841FD2F1E9A824E00247013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F841FD311E9A824E00247013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0EF0D57F4C49672326A645 /* Pods-wasocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocial.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F841FD321E9A824E00247013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7ECD7EE52F4575876BACCC /* Pods-wasocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocial.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F841FD341E9A824E00247013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920C71164B4B6DF420FA07D6 /* Pods-wasocialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wasocial.app/wasocial";
+			};
+			name = Debug;
+		};
+		F841FD351E9A824E00247013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1A689AAB4AA94EEE37636E /* Pods-wasocialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wasocial.app/wasocial";
+			};
+			name = Release;
+		};
+		F841FD371E9A824E00247013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2339127EE164F154655A9F1 /* Pods-wasocialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wasocial;
+			};
+			name = Debug;
+		};
+		F841FD381E9A824E00247013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECC87B81D448C0249AFD60E /* Pods-wasocialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V6EZYSZAWM;
+				INFOPLIST_FILE = wasocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishan.wasocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = wasocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F841FD031E9A824E00247013 /* Build configuration list for PBXProject "wasocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F841FD2E1E9A824E00247013 /* Debug */,
+				F841FD2F1E9A824E00247013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F841FD301E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F841FD311E9A824E00247013 /* Debug */,
+				F841FD321E9A824E00247013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F841FD331E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F841FD341E9A824E00247013 /* Debug */,
+				F841FD351E9A824E00247013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F841FD361E9A824E00247013 /* Build configuration list for PBXNativeTarget "wasocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F841FD371E9A824E00247013 /* Debug */,
+				F841FD381E9A824E00247013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F841FD001E9A824E00247013 /* Project object */;
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wasocial/AddDiaryViewController.swift"
+            timestampString = "514660589.216898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "AddDiaryViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.AddDiaryViewController.sadnessView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;wasocial.DisplayView&gt;"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/AddDiaryViewController.swift"
+                  timestampString = "514660590.926001"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.AddDiaryViewController.sadnessView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;wasocial.DisplayView&gt;"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/AddDiaryViewController.swift"
+                  timestampString = "514660590.929597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.AddDiaryViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; wasocial.AddDiaryViewController"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/AddDiaryViewController.swift"
+                  timestampString = "514660590.931153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "1031">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.AddDiaryViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;wasocial.AddDiaryViewController&gt;"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/AddDiaryViewController.swift"
+                  timestampString = "514660590.932551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "953">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wasocial/UserListViewController.swift"
+            timestampString = "514699750.59399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.UserListViewController.(retriveFriendList () -&gt; ()).(closure #1)"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/UserListViewController.swift"
+                  timestampString = "514698024.781397"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "347">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wasocial.UserListViewController.(retriveFriendList () -&gt; ()).(closure #1)"
+                  moduleName = "wasocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenyishan/Desktop/cse438final/wasocial/wasocial/UserListViewController.swift"
+                  timestampString = "514698024.783093"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
